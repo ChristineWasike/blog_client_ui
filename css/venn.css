@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-image: radial-gradient(#fff 25%, #bbb 75%);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    height: 50vh;
+    width: 50vh;
+  }
+  [class^='circle'] {
+    background-color: #0ff;
+    border-radius: 50%;
+    height: 50vh;
+    width: 50vh;
+    mix-blend-mode: multiply;
+    position: absolute;
+  }
+  .circle1 {
+    background-color: rgba(0,255,255,0.5);
+    align-content: center;
+    animation: c1 2.5s ease-in-out 3 alternate;
+  }
+
+  p {
+    margin-top: 8.5rem;
+    margin-left: 7.3rem;
+     
+    animation: c1 2.5s ease-in-out 3 alternate;
+  }
+  .circle2 {
+    background-color: rgba(255,255,0,0.5);
+    animation: c2 2.5s ease-in-out 3 alternate;
+  }
+  .circle3 {
+    background-color: rgba(255,0,255,0.5);
+    animation: c3 2.5s ease-in-out 3 alternate;
+  }
+  @-moz-keyframes c1 {
+    from {
+      transform: translate(-25%, 25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @-webkit-keyframes c1 {
+    from {
+      transform: translate(-25%, 25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @-o-keyframes c1 {
+    from {
+      transform: translate(-25%, 25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes c1 {
+    from {
+      transform: translate(-25%, 25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @-moz-keyframes c2 {
+    from {
+      transform: translate(0, -25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @-webkit-keyframes c2 {
+    from {
+      transform: translate(0, -25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @-o-keyframes c2 {
+    from {
+      transform: translate(0, -25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes c2 {
+    from {
+      transform: translate(0, -25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @-moz-keyframes c3 {
+    from {
+      transform: translate(25%, 25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @-webkit-keyframes c3 {
+    from {
+      transform: translate(25%, 25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @-o-keyframes c3 {
+    from {
+      transform: translate(25%, 25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes c3 {
+    from {
+      transform: translate(25%, 25%);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+  

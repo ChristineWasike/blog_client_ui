@@ -1,0 +1,88 @@
+.navbar{
+    background-color:rgb(10, 10, 10);
+}
+
+.landing{
+    margin-top: -60px;
+    background-image: url(../img/Nji\ Background.svg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    height: 100.5vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+	position: relative;
+}
+
+
+.social-media{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: .7rem;
+}
+
+#twitter{
+    margin-top: .3rem;
+}
+
+.about-me{
+    padding-top: 3em;
+    margin-bottom: -15px;
+    min-height: 80vh;
+}
+
+.about-me h3{
+    text-align: center;
+    text-decoration: underline dashed;
+}
+
+.about-me p{
+    font-size: large;
+}
+
+.about-me .description{
+    padding-right: 3rem;
+}
+
+#about_image{
+    text-align: center;
+    max-height: 25rem;
+    border-radius: 10px;
+}
+
+.email{
+    color: teal;
+    text-decoration: underline;
+}
+
+.competencies{
+    min-height: 60vh;
+}
+
+.competencies-title{
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+
+.hamburger_menu img{
+    height: 15%; 
+    width: 15%;
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width:992px){
+    .landing{
+        margin-top: -100px;
+    }
+
+    .hamburger_menu img{
+        height: 5%; 
+        width: 5%;
+        float: right;
+        cursor: pointer;
+    }
+}
