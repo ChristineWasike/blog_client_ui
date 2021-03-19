@@ -16,7 +16,7 @@
 	position: relative;
 }
 
-
+ 
 .social-media{
     height: 1.5rem;
     width: 1.5rem;
@@ -28,7 +28,9 @@
 }
 
 .about-me{
-    padding-top: 3em;
+    background-color:rgb(10, 10, 10);
+    color: white;
+    padding-top: 15em;
     margin-bottom: -15px;
     min-height: 80vh;
 }
