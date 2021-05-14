@@ -4,7 +4,7 @@
 
 .landing{
     margin-top: -60px;
-    background-image: url(../img/Nji\ Background.svg);
+    background-image: url(../img/Logo_Website.svg);
     background-repeat: no-repeat;
     background-position:top;
     background-size: cover;
@@ -13,7 +13,7 @@
     display: flex;
     overflow: hidden;
     align-items: center;
-	position: relative;
+    position: relative;
 }
 
 /*--------------------------------------------------------------
