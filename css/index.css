@@ -4,7 +4,7 @@
 
 .landing{
     margin-top: -60px;
-    background-image: url(../img/Logo_Website.svg);
+    background:linear-gradient(0deg, rgba(8, 8, 8, 0.3), rgba(26, 26, 26, 0.3)),url(../img/Logo_Website.svg);
     background-repeat: no-repeat;
     background-position:top;
     background-size: cover;
@@ -14,6 +14,10 @@
     overflow: hidden;
     align-items: center;
     position: relative;
+}
+
+.landing_content{
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
