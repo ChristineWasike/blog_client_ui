@@ -4,7 +4,7 @@
 
 .landing{
     margin-top: -60px;
-    background:linear-gradient(0deg, rgba(8, 8, 8, 0.3), rgba(26, 26, 26, 0.3)),url(../img/Logo_Website.svg);
+    background:linear-gradient(0deg, rgba(8, 8, 8, 0.5), rgba(26, 26, 26, 0.5)),url(../img/Logo_Website.svg);
     background-repeat: no-repeat;
     background-position:top;
     background-size: cover;
@@ -18,6 +18,37 @@
 
 .landing_content{
   text-align: center;
+}
+
+#welcome, .js-odoo{
+  font-size: 2rem;
+}
+
+.slottt-machine-recipe {
+  margin: 0px auto;
+  width: 700px;
+  margin-top: 50px;
+}
+
+.slottt-machine-recipe__mask {
+    width: 100%;
+    height: 150px;
+    overflow: hidden; 
+    position: relative;
+    display: inline-block;
+    margin-bottom: -40px;
+}
+
+.slottt-machine-recipe__items_container {
+    position: absolute;
+}
+
+.slottt-machine-recipe__item {
+    min-height: 150px;
+    max-height: 150px;
+    margin: 0px;
+    padding: 0px;
+    background-size: contain;
 }
 
 /*--------------------------------------------------------------
