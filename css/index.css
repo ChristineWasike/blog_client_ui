@@ -1,6 +1,6 @@
 body{
   background: rgb(22, 22, 22);
-  color: white;
+  color: rgb(207, 207, 207);
 }
 .navbar{
     background-color:rgb(15, 15, 15);
@@ -99,6 +99,15 @@ body{
     border-radius: 10px;
 }
 
+.about-socials{
+  margin-top: 0.4rem;
+}
+
+.get-in-touch{
+  background-color: #ea80fc;
+  border-color: #ea80fc;
+}
+
 .email{
     color: teal;
     text-decoration: underline;
@@ -165,7 +174,7 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: white;
+    color: rgb(207, 207, 207);
     margin-bottom: 10px;
   }
   
