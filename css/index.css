@@ -179,7 +179,7 @@ body{
 
 @media screen and (max-width:992px){
     .landing{
-        margin-top: -100px;
+        /* margin-top: -100px; */
     }
 
     .hamburger_menu img{
