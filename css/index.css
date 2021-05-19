@@ -71,42 +71,7 @@ body{
     margin-top: .3rem;
 }
 
-.about-me{  
-    padding-top: 3em;
-    margin-bottom: -15px;
-    min-height: 100vh;
-}
 
-.about-me h3{
-    text-decoration: underline dashed;
-    text-underline-position: under;
-}
-
-.about-me p{
-    font-size: large;
-}
-
-.about-me .description{
-    padding-right: 3rem;
-}
-
-.about-me .image{
-  text-align:center;
-}
-
-#about_image{
-    max-height: 25rem;
-    border-radius: 10px;
-}
-
-.about-socials{
-  margin-top: 0.4rem;
-}
-
-.get-in-touch{
-  background-color: #ea80fc;
-  border-color: #ea80fc;
-}
 
 .email{
     color: teal;

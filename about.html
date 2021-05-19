@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about.css">
 </head>
 
 <body>
@@ -23,14 +24,14 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
             <a href="about.html">About</a>
-            <a href="blog.html">Resume</a>
+            <a href="resume.html">Resume</a>
             <a href="blog.html">Blog</a>
             <a href="contact.html">Contact</a>
         </div>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top">
-        <a class="navbar-brand logo" href="index.html"><img src="img/new_logo4.png" alt="..."></a>
+        <a class="navbar-brand logo" href="index.html"><img src="img/new_logo.png" alt="..."></a>
 
         <div id="navbarNav">
             <ul class="navbar-nav">
@@ -42,164 +43,125 @@
     </nav>
 
     <div class="container-fluid" id="main">
-        <!-- ======= About me Section ======= -->
-        <div class="row about-me">
-            <div class="col-md-6 image">
-                <img src="img/about_me.jpg" alt="nji" id="about_image">
+
+        <!-- ======= Start of About me Section ======= -->
+        <section id="about-me">
+            <div class="row about-me">
+                <div class="col-md-6 image">
+                    <img src="img/about_me.jpg" alt="nji" id="about_image">
+                </div>
+
+                <!-- animate__animated animate__fadeInRight -->
+                <div class="col-md-6 area-style description">
+                    <h3>About me</h3>
+                    <span style="color: #ea80fc; font-weight: bold;">
+                        <p>Who am I?</p>
+                    </span>
+
+                    <p style="font-weight: bold;">I’m Nji Mbitaownu, an Entrepreneurial Leader, Startup Strategist and
+                        Entrepreneurship Coach.
+                    </p>
+                    <p>I am an entrepreneurial leader and ecosystem player passionate about helping
+                        entrepreneurs find their strengths and voices even in the most unfavourable
+                        situations. I work at the intersection of entrepreneurial foundations and finance
+                        to connect the two as an unbroken bond. I use strategic foresight to bridge the gap
+                        between entrepreneurial passion and market fits towards sustainable economic development
+                        across all venture spectrums.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Name: Nji Mbitaownu</p>
+                            <p>From: Cameroon</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Email: <span class="email">nji@mbitaownu.com</span></p>
+                            <p>Location: Kigali, Rwanda</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a type="button" class="btn btn-light get-in-touch" href="contact.html">Get in
+                                Touch</a>
+                        </div>
+                        <div class="col-md-6 about-socials">
+                            <img src="img/twitter.svg" alt="twitter" class="social-media" id="twitter">
+                            <img src="img/linkedin.svg" alt="linkedin" class="social-media">
+                            <img src="img/facebook.svg" alt="facebook" class="social-media">
+                            <img src="img/instagram.svg" alt="instagram" class="social-media">
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-            <div class="col-md-6 area-style description animate__animated animate__fadeInRight">
-                <h3>About me</h3>
-                <span style="color: #ea80fc; font-weight: bold;">
-                    <p>Who am I?</p>
-                </span>
-
-                <p style="font-weight: bold;">I’m Nji Mbitaownu, an Entrepreneurial Leader, Startup Strategist and
-                    Entrepreneurship Coach.
-                    <br>
-                </p>
-                <p>I am an entrepreneurial leader and ecosystem player passionate about helping
-                    entrepreneurs find their strengths and voices even in the most unfavourable
-                    situations. I work at the intersection of entrepreneurial foundations and finance
-                    to connect the two as an unbroken bond. I use strategic foresight to bridge the gap
-                    between entrepreneurial passion and market fits towards sustainable economic development
-                    across all venture spectrums.</p>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>Name: Nji Mbitaownu</p>
-                        <p>From: Cameroon</p>
-                    </div>
-                    <div class="col-md-6">
-                        <p>Email: <span class="email">nji@mbitaownu.com</span></p>
-                        <p>Location: Kigali, Rwanda</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <button type="button" class="btn btn-light get-in-touch">Get in
-                            Touch</button>
-                    </div>
-                    <div class="col-md-6 about-socials">
-                        <img src="img/twitter.svg" alt="twitter" class="social-media" id="twitter">
-                        <img src="img/linkedin.svg" alt="linkedin" class="social-media">
-                        <img src="img/facebook.svg" alt="facebook" class="social-media">
-                        <img src="img/instagram.svg" alt="instagram" class="social-media">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ======= About me Section ======= -->
-
-        <!-- ======= Resume Section ======= -->
-        <section id="resume" class="resume">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2 style="font-weight: bolder;">Resume</h2>
-
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6" data-aos="fade-up">
-                        <!-- <h3 class="resume-title">Summary</h3>
-                        <div class="resume-item pb-0">
-                            <h4>Nji Mbitaownu</h4>
-                            <p><em>I’m an Entrepreneurial Leader, Startup Strategist and
-                                    Entrepreneurship Coach.</em></p>
-                            <ul>
-                                <li>Kigali Rwanda</li>
-                                <li>(123) 456-7891</li>
-                                <li>nmbitaownu@alueducation.com</li>
-                            </ul>
-                        </div> -->
-
-                        <h3 class="resume-title">Education</h3>
-                        <div class="resume-item">
-                            <h4>Master of Business Administration - MBA Finance</h4>
-                            <!-- <h5>2017 - 2019</h5> -->
-                            <p><em>Adventist University of Central Africa, RW</em></p>
-                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
-                                voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-                        </div>
-                        <div class="resume-item">
-                            <h4>Bachelors in Business Administration, Accounting &amp; Finance</h4>
-                            <!-- <h5>2015 - 2017</h5> -->
-                            <p><em>University of Bamenda, CR</em></p>
-                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
-                                ratione eius unde vitae rerum voluptates </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="resume-title">Professional Experience</h3>
-                        <div class="resume-item">
-                            <h4>Incubator Manager with School of Wildlife Conservation</h4>
-                            <!-- <h5>2021 - Present</h5> -->
-                            <p><em>African Leadership University, Rwanda</em></p>
-                            <ul>
-                                <li>Lead in the design and implementation of the graphic layout</li>
-                                <li>Delegate tasks to 7 members of the design team </li>
-                                <li>Supervise the assessment of graphic materials</li>
-                                <li>Oversee the efficient use of production project $2,000 - $25,000</li>
-                            </ul>
-                        </div>
-                        <div class="resume-item">
-                            <h4>Entrepreneurship and International Business and Trade Facilitator</h4>
-                            <!-- <h5>2020 - Present</h5> -->
-                            <p><em>African Leadership University, Rwanda</em></p>
-                            <ul>
-                                <li>Developed numerous marketing programs.</li>
-                                <li>Managed up to 5 projects </li>
-                                <li>Recommended and consulted with clients on graphic design</li>
-                                <li>Created 4+ design proposals a month for clients</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <a id="scroll" href="#testimonials"><span></span></a>
         </section>
-        <!-- End Resume Section -->
+        <!-- ======= End of About me Section ======= -->
+
+        <!-- ======= Start of Competencies Section ======= -->
+        <section id="completencies">
+
+        </section>
+        <!-- ======= End of Competencies Section ======= -->
 
 
-        <h2 style="text-align: center;" class="header">Testimonials</h2>
-        <div class="container carousel-container">
-            <div id="carouselContent" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active text-center p-4">
-                        <p>I am pleased to nominate Nji Mbitaownu as the Sales Executive Award. <br>
-                            To be honest,I have never worked with a person who gives so much of <br>
-                            attention to every detail he works on.
-                            <br>
-                            ~ Tolu
-                        </p>
+        <!-- ======= Start of Testimonials Section ======= -->
+        <section id="testimonials">
+            <h2 style="text-align: center;" class="header">Testimonials</h2>
+            <div class="container carousel-container">
+                <div id="carouselContent" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active text-center p-4">
+                            <div class="card text-white bg-dark mb-3" id="tolu-card" style="max-width: 30rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dark card title</h5>
+                                    <p class="card-text">
+                                        I am pleased to nominate Nji Mbitaownu as the Sales Executive Award.
+                                        To be honest, I have never worked with a person who gives so much of
+                                        attention to every detail he works on.
+                                        <br>
+                                        ~ Tolu
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item text-center p-4">
+                            <div class="card text-white bg-dark mb-3" id="tolu-card" style="max-width: 30rem;">
+                                <div class="card-header">Header</div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dark card title</h5>
+                                    <p class="card-text">
+                                        It is in his willingness to work on difficult projects and tasks and
+                                        see them completing has impressed everyone in the company over the years.
+                                        His skills do not end with official work.
+                                        <br>
+                                        ~ Ratan
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item text-center p-4">
-                        <p>It is in his willingness to work on difficult projects and tasks and <br>
-                            see them completing has impressed everyone in the company over the years.<br>
-                            His skills do not end with official work.
-                            <br>
-                            ~ Ratan
-                        </p>
-                    </div>
+                    <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-        </div>
-
-        <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+            <a id="scroll" href="#testimonials"><span></span>scroll</a>
+            <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
     </div>
+    </section>
+    <!-- ======= End of Testimonials Section ======= -->
 
 
+    TODO : Need to come back to this 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"
+        integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- Start of Landing page -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
