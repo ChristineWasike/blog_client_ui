@@ -7,12 +7,11 @@ body{
 }
 
 .landing{
-    margin-top: -60px;
     background:linear-gradient(0deg, rgba(8, 8, 8, 0.7), rgba(26, 26, 26, 0.7)),url(../img/Logo_Website.svg);
     background-repeat: no-repeat;
     background-position:top;
     background-size: cover;
-    height: 100vh;
+    height: 90.7vh;
     width: 100%;
     display: flex;
     overflow: hidden;
