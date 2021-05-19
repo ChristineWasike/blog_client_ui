@@ -182,9 +182,9 @@ body{
   }
 
 @media screen and (max-width:992px){
-    .landing{
-        /* margin-top: -100px; */
-    }
+  .socials{
+    display: none;
+  }
 
     .hamburger_menu img{
         height: 20%; 
@@ -201,8 +201,6 @@ body{
       display: block;
     }
 
-    .socials{
-      display: none;
-    }
+   
 
 }
