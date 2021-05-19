@@ -129,4 +129,19 @@ html{
   margin: 0 auto;
 }
 
+@media screen and (max-width:992px){
+  #about-me #scroll, #testimonials #scroll {
+    display: none;
+  }
 
+  .about-me p, .get-in-touch{
+    font-size: small;
+  }
+
+  #testimonials h2, .description h3{
+    font-size: large;
+  }
+  .description h3{
+    margin-top: 2rem;
+  }
+}
