@@ -183,9 +183,13 @@ body{
     }
 
     .hamburger_menu img{
-        height: 10%; 
-        width: 10%;
-        float: right;
+        height: 20%; 
+        width: 20%;
+        /* float: right; */
         cursor: pointer;
+    }
+
+    .nav-item{
+      max-width: 25vw;
     }
 }
