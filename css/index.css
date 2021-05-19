@@ -197,12 +197,12 @@ body{
       max-width: 25vw;
     }
 
+    .mobile_socials{
+      display: block;
+    }
 
     .socials{
       display: none;
     }
 
-    .mobile_socials{
-      display: block;
-    }
 }
