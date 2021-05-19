@@ -103,6 +103,10 @@ body{
   float: right;
 }
 
+.mobile_socials{
+  display: none;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -191,5 +195,14 @@ body{
 
     .nav-item{
       max-width: 25vw;
+    }
+
+
+    .socials{
+      display: none;
+    }
+
+    .mobile_socials{
+      display: block;
     }
 }
