@@ -65,10 +65,19 @@ body{
     }
   }
 
+@media (min-width: 576px){
+  .navbar-expand-sm {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content:space-between;
+  }
+}
+
   @media screen and (min-width:992px){
     #navbarNav{
         /* float: left;  */
-        margin-left: 53rem;
+        margin-left: 70vw;
     }
 }
 @media screen and (max-width:992px){
