@@ -183,8 +183,8 @@ body{
     }
 
     .hamburger_menu img{
-        height: 5%; 
-        width: 5%;
+        height: 10%; 
+        width: 10%;
         float: right;
         cursor: pointer;
     }
