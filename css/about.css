@@ -39,7 +39,16 @@ html{
   border-color: #ea80fc; */
 }
 
-#about-me #scroll, #testimonials #scroll{
+#competencies{  
+  /* padding-top: 2em; */
+  margin-bottom: -15px;
+  min-height: 100vh;
+}
+#competencies_row_1{
+  padding-top: 3rem;
+}
+
+#about-me #scroll, #testimonials #scroll, #competencies #scroll{
   position: relative;
   bottom: 20px;
   left: 50%;
