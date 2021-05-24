@@ -31,7 +31,7 @@ body{
 
 .slottt-machine-recipe {
   margin: 0px auto;
-  width: 300px;
+  width: 350px;
   /* margin-top: 50px; */
 }
 
@@ -60,7 +60,7 @@ body{
 
 .recipe_if, .recipe_then {
     font-weight: bold;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
 }
 
 .tagline {
