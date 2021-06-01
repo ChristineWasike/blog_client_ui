@@ -9,6 +9,7 @@ html{
 }
 
 .about-me h3{
+    font-weight: bolder;
     text-decoration: underline dashed;
     text-underline-position: under;
 }
@@ -35,14 +36,15 @@ html{
 }
 
 .get-in-touch{
-  color: rgb(66, 66, 66);
-  background-color: #ea80fc;
-  border-color: #ea80fc;
+  color: rgb(224, 224, 224);
+  font-weight: bold;
+  background-color: #CDA750;
+  border-color: #CDA750;
 }
 .get-in-touch:hover{
   color: rgb(15, 15, 15);
-  background-color: #ef95ff;
-  border-color: #ef95ff;
+  background-color: #CDA750;
+  border-color: #CDA750;
 }
 
 #competencies{  

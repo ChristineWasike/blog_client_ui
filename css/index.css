@@ -1,6 +1,6 @@
 body{
   background: rgb(22, 22, 22);
-  color: rgb(207, 207, 207);
+  color: rgb(238, 238, 238);
 }
 .navbar{
     background-color:rgb(15, 15, 15);
@@ -59,7 +59,7 @@ body{
 /* Typography */
 
 .recipe_if, .recipe_then {
-    font-weight: bold;
+    font-weight:900;
     font-size: 1.8rem;
 }
 
@@ -119,7 +119,7 @@ a {
 
 
 .email{
-    color: teal;
+    color: white;
     text-decoration: underline;
 }
 
