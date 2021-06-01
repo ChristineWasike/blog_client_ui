@@ -45,4 +45,8 @@
         float: right;
         cursor: pointer;
     }
+
+    .contact_details{
+        padding-right: 4rem;
+    }
 }
