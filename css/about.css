@@ -141,6 +141,10 @@ html{
   min-height: 100vh;
 }
 
+.carousel-container{
+  padding-top: 5rem;
+}
+
 
 #tolu-card{
   margin: 0 auto;
@@ -160,5 +164,17 @@ html{
   }
   .description h3{
     margin-top: 2rem;
+  }
+
+  #competencies{  
+    padding-top: 3em;
+  }
+
+  #competencies_row_1{
+    padding-top: 2rem;
+  }
+  
+  .carousel-container{
+    padding-top: 2rem;
   }
 }
