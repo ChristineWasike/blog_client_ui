@@ -1,0 +1,3 @@
+MYSQL account
+username: nji
+password: JGBrY3yj==i@
